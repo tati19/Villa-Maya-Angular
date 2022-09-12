@@ -1,0 +1,59 @@
+#about{
+  background-image:url(src/assets/images/SandBG.jpeg) ;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#about h1{
+  position: relative;
+  text-align: center;
+  top: 120px;
+  font-size: 60px;
+  font-family: 'Gentium Plus', serif;
+}
+
+.grid-container{
+  display: grid;
+  height: 80%;
+  grid-template-columns: repeat(2,75px);
+  grid-template-rows: repeat(3, 75px);
+  grid-column-gap: 250px;
+  grid-row-gap: 25px;
+  justify-content: center;
+  align-content: center;
+}
+
+.grid-container img{
+  height: 75px;
+}
+
+#btn-container{
+  position: relative;
+  bottom: 100px;
+  display: flex;
+  justify-content: center;
+}
+#btn{
+  background-color: gray;
+  border: none;
+  border-radius: 55px;
+  padding: 10px 20px;
+  font-size: 29px;
+  cursor: pointer;
+  font-family: 'Gentium Plus', serif;
+}
+
+.para{
+  display: flex;
+  align-items: center;
+}
+
+.para p{
+  margin: 15px;
+  text-align: center;
+}
+
+#btn:hover{
+  background-color: red;
+  color: antiquewhite;
+}

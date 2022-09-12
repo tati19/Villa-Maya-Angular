@@ -1,0 +1,15 @@
+#booking{
+  background-image:url(src/assets/images/SandBGRev.png) ;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+
+.pl-container img{
+  height: 150px;
+  width: 125px;
+  border: 3px solid brown;
+  border-radius: 15px;
+
+}
