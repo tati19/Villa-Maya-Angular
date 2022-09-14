@@ -1,15 +1,23 @@
-#booking{
-  background-image:url(src/assets/images/SandBGRev.png) ;
+/*#booking{
+  background-image:url(src/assets/images/bookingBG.jpg) ;
   background-repeat: no-repeat;
   background-size: cover;
+}*/
+
+h1{
+  margin-top: 45px;
+  position: relative;
+  text-align: center;
 }
 
-
-
-.pl-container img{
-  height: 150px;
-  width: 125px;
-  border: 3px solid brown;
-  border-radius: 15px;
-
+section{
+  width: 100%;
+  height: 100vh;
+  float: left;
+  position: relative;
 }
+
+.container{
+  width: 50%;
+}
+
